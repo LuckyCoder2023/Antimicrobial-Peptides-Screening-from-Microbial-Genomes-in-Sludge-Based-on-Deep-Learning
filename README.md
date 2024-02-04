@@ -5,7 +5,7 @@ As the issue of traditional antibiotic resistance continues to worsen, exploring
 The raw data file for this study is named `sludge.fastq`.<br>
 ## The program and instructions are provided below
 * Prediction small ORF from genome sequences → `small.pl`<br>
-* remove redundant sORF and known AMPs → `remove.pl`<br>
+* Remove redundant sORF and known AMPs → `remove.pl`<br>
 * Prepare input data format for LSTM and Attention models → `prepare_data.pl`<br>
 * AMPs prediction → `FocusMechanism.py`;`prediction_lstm.py`;`updated_attention_model.py`;`updated_lstm_model.py` <br>
-* result → `Result_integration.pl`;`ROC.py`<br>
+* Result → `Result_integration.pl`;`ROC.py`<br>
